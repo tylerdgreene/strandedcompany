@@ -1,0 +1,66 @@
+@import url(https://fonts.googleapis.com/css?family=Merriweather);
+*, 
+*:before, 
+*:after {
+   box-sizing: border-box; 
+}
+html, body {
+  font-family: 'Merriweather', sans-serif;
+}
+h1 {
+ text-align: center;
+ color: #a8a8a8;
+ text-shadow: 1px 1px rgba(255,255,255,.1);
+}
+form {
+  width: 80%; min-height: 500px;
+  text-align: center;
+  margin: 20px auto;
+}
+input, textarea {
+  border:0; outline:0;
+  padding: 1em;
+  display: block;
+  width: 100%;
+  margin-top: 1em;
+  font-family: 'Merriweather', sans-serif;
+  resize: none;
+  box-shadow: 0 8px 6px -6px black;
+  border-radius: 10px !important;
+}
+#input-submit {
+  color: white; 
+  background: #DB500B;
+  cursor: pointer;
+}
+textarea {
+  width:100%; height: 175px;
+}
+.half {
+  margin-bottom: 1em;
+  width: 80%;
+  margin-left: 90px;
+}
+.right { 
+  width: 100%;
+}
+.left {
+     margin-right: 2%; 
+}
+@media (max-width: 1280px) {
+  .half {
+     width: 100%; 
+     float: none;
+     margin-bottom: 0; 
+     margin-left: 0;
+  }
+}
+/* Clearfix */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+.cf:after {
+    clear: both;
+}

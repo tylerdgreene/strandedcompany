@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=Monoton|Quicksand|Roboto|Yesteryear');
+/*#141414, #DB500B, #FAD483, #F1F3B4, #EDEEC0, #0267C1, #0075C4*/
+*{
+  margin: 0; padding: 0;
+  -webkit-border-radius: 0 !important;
+  -moz-border-radius: 0 !important;
+  border-radius: 0 !important;
+}
+body{
+  width: 100%; height: 100%;
+  background-image: url("../img/body-bg.jpg");
+}
+.navbar{
+  margin: 0;
+  border-bottom: 1px solid #DB500B;
+}
+.nav-a{
+  font-family: 'Roboto', monospace;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.navbar-brand{
+  font-family: "Yesteryear", cursive;
+  font-size: 30px;
+}
+.footer-brand{
+  font-family: "Yesteryear", cursive;
+  font-size: 30px;
+  color: whitesmoke;
+  font-weight: 300;
+}
+.jumbotron{
+  background-color: #141414;
+  width: 100%; min-height: 900px;
+  background-image: linear-gradient(
+  0deg, rgba(255,255,255,0.2), rgba(255,255,255,0.2)
+  ), url("../img/bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  overflow-x: hidden; 
+  overflow-y: auto;
+  border-bottom: 1px solid #DB500B; 
+  margin-bottom: 0;
+}
+.minitron{
+  background-color: #141414;
+  width: 100%; min-height: 300px;
+  background-image: linear-gradient(
+  0deg, rgba(255,255,255,0.7), rgba(255,255,255,0.7)
+  ), url("../img/bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  overflow-x: hidden; 
+  overflow-y: auto;
+  border-bottom: 1px solid #DB500B; 
+  margin-bottom: 0;
+  text-align: center;
+}
+.minitron h2{
+  color: #DB500B; 
+  font-family: "Quicksand", sans-serif;
+  font-size: 50px;
+  display: inline-block;
+  text-transform: uppercase;
+  padding-top: 100px;
+}
+.content{
+  width: 90%; min-height: 700px;
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+  background-color: rgba(237,238,192, 0.7);
+}
+.content p{
+  text-align: left;
+  padding: 5px;
+}
+.content h2{
+  color: #141414; 
+  font-family: "Yesteryear", cursive;
+  font-size: 40px;
+}
+#h2-sponser{
+  color: #141414; 
+  font-family: "Quicksand", sans-serif;
+  font-size: 30px;
+  text-align: left;
+}
+.form-container{
+  width: 80%; height: 600px;
+  margin: 0 auto;
+  position: relative;
+  background: linear-gradient(
+  0deg, rgba(255,255,255,0.2), rgba(255,255,255,0.2)
+  );
+  border: 1px solid white;
+  border-radius: 5px !important;
+  margin-top: 20px;
+}
+.content h3{
+  color: #141414; 
+  font-family: "Quicksand", cursive;
+  text-align: left;
+}
+.hold{
+  width: 100%; height: 200px;
+  position: relative;
+  margin: 0 auto;
+  background-color: inherit;
+  margin-bottom: 100px;
+}
+.shopping{
+  width: 100%; min-height: 20px;
+  margin: 0 auto;
+  position: relative;
+  background-color: #222;
+  color: white;
+}
+.item{
+  width: 200px; height: 100px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+.product-container{
+  width: 100%; height: 600px;
+  margin: 0 auto;
+  position: relative;
+  background: linear-gradient(
+  0deg, rgba(255,255,255,0.2), rgba(255,255,255,0.2)
+  );
+  border: 1px solid white;
+  border-radius: 5px !important;
+  margin-top: 20px;
+  margin-bottom: 20px
+}
+.shopping h2{
+  color: #141414; 
+  font-family: "Quicksand", sans-serif;
+  font-size: 30px;
+}
+.table{
+  color: white;
+}
+.table-bordered th, .table-bordered td{
+  border: 1px solid #DB500B !important;
+}
